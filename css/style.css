@@ -1,0 +1,334 @@
+.color-primary .label-rgb:before {
+  content: "217 / 245 / 232";
+}
+
+.color-primary .label-hsl:before {
+  content: "152deg / 58% / 91%";
+}
+
+.color-primary .swatch {
+  background: #D9F5E8;
+}
+
+.color-primary .swatch-light {
+  background: #f9fefc;
+}
+
+.color-primary .swatch-dark {
+  background: #a7f4d0;
+}
+
+.color-primary .mixed-with-primary .swatch {
+  background: #d9f5e8;
+}
+
+.color-secondary .mixed-with-primary .swatch {
+  background: #a0e6db;
+}
+
+.color-tertiary .mixed-with-primary .swatch {
+  background: #e6e1a9;
+}
+
+.color-accent .mixed-with-primary .swatch {
+  background: #e6c2b0;
+}
+
+.color-secondary .label-rgb:before {
+  content: "55 / 203 / 194";
+}
+
+.color-secondary .label-hsl:before {
+  content: "176deg / 59% / 51%";
+}
+
+.color-secondary .swatch {
+  background: #37cbc2;
+}
+
+.color-secondary .swatch-light {
+  background: #4dded5;
+}
+
+.color-secondary .swatch-dark {
+  background: #16b9af;
+}
+
+.color-primary .mixed-with-secondary .swatch {
+  background: #70dacf;
+}
+
+.color-secondary .mixed-with-secondary .swatch {
+  background: #37cbc2;
+}
+
+.color-tertiary .mixed-with-secondary .swatch {
+  background: #7dc590;
+}
+
+.color-accent .mixed-with-secondary .swatch {
+  background: #7da797;
+}
+
+.color-tertiary .label-rgb:before {
+  content: "255 / 187 / 51";
+}
+
+.color-tertiary .label-hsl:before {
+  content: "40deg / 100% / 60%";
+}
+
+.color-tertiary .swatch {
+  background: #fb3;
+}
+
+.color-tertiary .swatch-light {
+  background: #ffc95c;
+}
+
+.color-tertiary .swatch-dark {
+  background: #ffaa00;
+}
+
+.color-primary .mixed-with-tertiary .swatch {
+  background: #f2cf72;
+}
+
+.color-secondary .mixed-with-tertiary .swatch {
+  background: #b9c165;
+}
+
+.color-tertiary .mixed-with-tertiary .swatch {
+  background: #ffbb33;
+}
+
+.color-accent .mixed-with-tertiary .swatch {
+  background: #ff9c3a;
+}
+
+.color-accent .label-rgb:before {
+  content: "255 / 99 / 71";
+}
+
+.color-accent .label-hsl:before {
+  content: "9deg / 100% / 64%";
+}
+
+.color-accent .swatch {
+  background: #FF6347;
+}
+
+.color-accent .swatch-light {
+  background: #ff8670;
+}
+
+.color-accent .swatch-dark {
+  background: #ff3814;
+}
+
+.color-primary .mixed-with-accent .swatch {
+  background: #f2967f;
+}
+
+.color-secondary .mixed-with-accent .swatch {
+  background: #b98772;
+}
+
+.color-tertiary .mixed-with-accent .swatch {
+  background: #ff8240;
+}
+
+.color-accent .mixed-with-accent .swatch {
+  background: tomato;
+}
+
+.color-primary .label-name:before,
+.color-primary h3.subheader:before {
+  content: "Mint";
+}
+
+.color-secondary .label-name:before,
+.color-secondary h3.subheader:before {
+  content: "Teal";
+}
+
+.color-tertiary .label-name:before,
+.color-tertiary h3.subheader:before {
+  content: "Gold";
+}
+
+.color-accent .label-name:before,
+.color-accent h3.subheader:before {
+  content: "Tomato";
+}
+
+strong.primary-font:before,
+.type-specimen.primary-font h2:before {
+  content: "Open Sans";
+}
+
+strong.accent-font:before,
+.type-specimen.accent-font h2:before {
+  content: "Bree Serif";
+}
+
+body {
+  padding-bottom: 30px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1.section-header {
+  font-size: 4rem;
+  margin-top: 4rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+h2.section-subheader {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 5rem;
+}
+h1 + h2.section-subheader {
+  margin-top: 2rem;
+}
+
+.navbar-toggle .icon-bar {
+  font-family: Arial, sans-serif;
+  margin-bottom: 5px;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.row-eq-height > div {
+  position: relative;
+  min-height: 30px;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"], .row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.label {
+  color: #ddd;
+  white-space: normal;
+  text-align: left;
+  font-size: 1.5rem;
+  border-radius: 0;
+  display: block;
+  padding: 0;
+}
+.label:empty {
+  display: block;
+}
+.row-eq-height .label {
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.color .label {
+  color: #000;
+}
+.color .label.label-color {
+  text-align: right;
+  font-weight: normal;
+}
+
+.swatch {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 2rem;
+}
+.swatch.swatch-small {
+  height: 50px;
+}
+
+.mixed-with-primary h4:before {
+  content: "Mixed with 65% Mint";
+}
+
+.mixed-with-secondary h4:before {
+  content: "Mixed with 65% Teal";
+}
+
+.mixed-with-tertiary h4:before {
+  content: "Mixed with 65% Gold";
+}
+
+.mixed-with-accent h4:before {
+  content: "Mixed with 65% Tomato";
+}
+
+.type-specimen h2 {
+  font-size: 7rem;
+}
+.type-specimen h3 {
+  font-size: 5rem;
+}
+.type-specimen span:nth-of-type(1),
+.type-specimen span:nth-of-type(3) {
+  font-weight: bold;
+}
+.type-specimen span:nth-of-type(3),
+.type-specimen span:nth-of-type(4) {
+  font-style: italic;
+}
+.type-specimen span:nth-of-type(1) {
+  color: #D9F5E8;
+}
+.type-specimen span:nth-of-type(2) {
+  color: #37cbc2;
+}
+.type-specimen span:nth-of-type(3) {
+  color: #fb3;
+}
+.type-specimen span:nth-of-type(4) {
+  color: #FF6347;
+}
+.type-specimen span:nth-of-type(5) {
+  color: #ddd;
+}
+.type-specimen ~ .type-specimen {
+  margin-top: 5rem;
+}
+.type-specimen.primary-font {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.type-specimen.accent-font {
+  font-family: "Bree Serif", serif;
+}
+
+.heading-samples h1 {
+  font-family: "Bree Serif", serif;
+  font-size: 4.5rem;
+  color: #16b9af;
+}
+.heading-samples h2, .heading-samples h3, .heading-samples h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.heading-samples h3 {
+  color: #c4c4c4;
+  font-family: "Bree Serif", serif;
+  font-size: 2.75rem;
+}
+.heading-samples h4 {
+  font-weight: bold;
+  color: #7dc590;
+}
+.heading-samples h5 {
+  font-weight: bold;
+}
+.heading-samples p {
+  line-height: 160%;
+}
